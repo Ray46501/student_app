@@ -46,8 +46,8 @@
                                     <td>'.$age.'</td>
                                     <td>'.$grade.'</td>
                                     <td>
-                                        <button class="btn btn-primary"><a href="update.php?updateid='.$id.'" class="text-light">Update</a></button>
-                                        <button class="btn btn-danger"><a href="delete.php?deleteid='.$id.'" class="text-light">Delete</a></button>
+                                        <button class="btn btn-primary"><a href="edit_student.php?updateid='.$id.'" class="text-light">Update</a></button>
+                                        <button class="btn btn-danger"><a href="delete_student.php?deleteid='.$id.'" class="text-light">Delete</a></button>
                                     </td>
                                 </tr>
                                 
