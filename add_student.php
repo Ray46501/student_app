@@ -78,8 +78,8 @@
                 return false;
             }
 
-            if (grade.length > 2 || isNaN(grade)) {
-                alert("Grade must be a number with at most 2 digits.");
+            if (grade > 12 || grade < 0 || isNaN(grade)) {
+                alert("Grade must be a number between 0 and 12.");
                 return false;
             }
 
