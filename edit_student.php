@@ -34,22 +34,24 @@
         <form method="post" onsubmit="return validateForm()">
             <div class="mb-3">
                 <label class="form-label">First Name</label>
-                <input type="text" class="form-control" placeholder="First Name" name="first_name" id="first_name" autocomplete="off">
+                <input type="text" class="form-control" placeholder="First Name" name="first_name" id="first_name" autocomplete="off" value=<?php echo $first_name;?>>
+                
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Last Name</label>
-                <input type="text" class="form-control" placeholder="Last Name" name="last_name" id="last_name" autocomplete="off">
+                <input type="text" class="form-control" placeholder="First Name" name="first_name" id="first_name" autocomplete="off" value=<?php echo $last_name;?>>
+                
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Age</label>
-                <input type="number" class="form-control" placeholder="Age" name="age" id="age" autocomplete="off">
+                <input type="text" class="form-control" placeholder="First Name" name="first_name" id="first_name" autocomplete="off" value=<?php echo $age;?>>
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Grade</label>
-                <input type="number" class="form-control" placeholder="Enter your Grade" name="grade" id="grade" autocomplete="off">
+                <input type="text" class="form-control" placeholder="First Name" name="first_name" id="first_name" autocomplete="off" value=<?php echo $grade;?>>
             </div>
 
             <button type="submit" class="btn btn-primary" name="submit">Submit</button>
